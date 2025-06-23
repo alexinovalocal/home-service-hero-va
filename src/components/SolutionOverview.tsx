@@ -25,7 +25,7 @@ const SolutionOverview = () => {
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
             Your Complete
-            <span className="text-orange-600"> Virtual Assistant Solution</span>
+            <span className="text-red-600"> Virtual Assistant Solution</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             We provide dedicated, trained virtual assistants who specialize in home service businesses. 
@@ -39,23 +39,23 @@ const SolutionOverview = () => {
             <div className="space-y-4">
               {benefits.map((benefit, index) => (
                 <div key={index} className="flex items-start gap-3">
-                  <CheckCircle className="h-6 w-6 text-yellow-600 mt-1 flex-shrink-0" />
+                  <CheckCircle className="h-6 w-6 text-amber-600 mt-1 flex-shrink-0" />
                   <span className="text-lg text-gray-700">{benefit}</span>
                 </div>
               ))}
             </div>
             <div className="mt-8">
-              <Button size="lg" className="bg-yellow-600 hover:bg-yellow-700 text-white px-8 py-4 text-lg">
+              <Button size="lg" className="bg-amber-600 hover:bg-amber-700 text-white px-8 py-4 text-lg">
                 Start Your Free Trial Today
               </Button>
             </div>
           </div>
 
-          <div className="bg-gradient-to-br from-orange-50 to-yellow-50 rounded-2xl p-8 animate-scale-in">
+          <div className="bg-gradient-to-br from-amber-50 to-red-50 rounded-2xl p-8 animate-scale-in">
             <div className="grid grid-cols-2 gap-6">
               {stats.map((stat, index) => (
                 <div key={index} className="text-center">
-                  <div className="text-3xl lg:text-4xl font-bold text-orange-600 mb-2">
+                  <div className="text-3xl lg:text-4xl font-bold text-red-600 mb-2">
                     {stat.number}
                   </div>
                   <div className="text-sm text-gray-600 font-medium">
@@ -67,9 +67,9 @@ const SolutionOverview = () => {
           </div>
         </div>
 
-        <div className="bg-gradient-to-r from-yellow-50 to-orange-50 rounded-2xl p-8 border border-yellow-200 animate-fade-in">
+        <div className="bg-gradient-to-r from-amber-50 to-red-50 rounded-2xl p-8 border border-amber-200 animate-fade-in">
           <div className="flex items-start gap-4">
-            <Star className="h-8 w-8 text-yellow-600 mt-1" />
+            <Star className="h-8 w-8 text-amber-600 mt-1" />
             <div>
               <h4 className="text-2xl font-bold text-gray-900 mb-4">Real Results from Real Clients</h4>
               <div className="grid md:grid-cols-2 gap-6">
