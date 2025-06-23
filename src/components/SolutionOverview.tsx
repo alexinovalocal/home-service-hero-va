@@ -1,21 +1,14 @@
 
 import { Button } from "@/components/ui/button";
-import { CheckCircle, Star, TrendingUp } from "lucide-react";
+import { CheckCircle } from "lucide-react";
 
 const benefits = [
-  "Immediate 20+ hour weekly time savings",
-  "Professional customer service 24/7",
+  "Immediate time and money savings",
+  "Nonstop coverage during your business hours",
   "Streamlined scheduling and operations",
   "Faster hiring and team management",
   "Reduced stress and better work-life balance",
   "Focus on growing your revenue"
-];
-
-const stats = [
-  { number: "500+", label: "Cleaning Businesses Served" },
-  { number: "89%", label: "Client Retention Rate" },
-  { number: "24hrs", label: "Average Setup Time" },
-  { number: "$50K+", label: "Average Annual Revenue Increase" }
 ];
 
 const SolutionOverview = () => {
@@ -28,7 +21,7 @@ const SolutionOverview = () => {
             <span className="text-red-600"> Virtual Assistant Solution</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            We provide dedicated, trained virtual assistants who specialize in home service businesses. 
+            Inova Local provides dedicated, trained virtual assistants who specialize in home service businesses. 
             They become an extension of your team, handling everything so you can focus on what matters most.
           </p>
         </div>
@@ -51,42 +44,41 @@ const SolutionOverview = () => {
             </div>
           </div>
 
-          <div className="bg-gradient-to-br from-amber-50 to-red-50 rounded-2xl p-8 animate-scale-in">
-            <div className="grid grid-cols-2 gap-6">
-              {stats.map((stat, index) => (
-                <div key={index} className="text-center">
-                  <div className="text-3xl lg:text-4xl font-bold text-red-600 mb-2">
-                    {stat.number}
+          <div className="relative animate-scale-in">
+            <div className="bg-white rounded-2xl shadow-2xl p-8 transform rotate-3 hover:rotate-0 transition-transform duration-300">
+              <div className="bg-gradient-to-r from-red-600 to-amber-600 rounded-lg p-6 text-white mb-6">
+                <h3 className="text-2xl font-bold mb-2">Before Virtual Assistant</h3>
+                <div className="space-y-2 text-red-100">
+                  <div className="flex items-center gap-2">
+                    <div className="w-2 h-2 bg-red-400 rounded-full"></div>
+                    <span>60+ hours/week on admin tasks</span>
                   </div>
-                  <div className="text-sm text-gray-600 font-medium">
-                    {stat.label}
+                  <div className="flex items-center gap-2">
+                    <div className="w-2 h-2 bg-red-400 rounded-full"></div>
+                    <span>Missed customer calls</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <div className="w-2 h-2 bg-red-400 rounded-full"></div>
+                    <span>Scheduling nightmares</span>
                   </div>
                 </div>
-              ))}
-            </div>
-          </div>
-        </div>
-
-        <div className="bg-gradient-to-r from-amber-50 to-red-50 rounded-2xl p-8 border border-amber-200 animate-fade-in">
-          <div className="flex items-start gap-4">
-            <Star className="h-8 w-8 text-amber-600 mt-1" />
-            <div>
-              <h4 className="text-2xl font-bold text-gray-900 mb-4">Real Results from Real Clients</h4>
-              <div className="grid md:grid-cols-2 gap-6">
-                <blockquote className="bg-white p-6 rounded-xl shadow-sm">
-                  <p className="text-gray-700 mb-4 italic">
-                    "I got my life back! My VA handles all my scheduling and customer calls. 
-                    I've grown from 2 to 8 cleaners in just 6 months because I can finally focus on the business."
-                  </p>
-                  <div className="font-semibold text-gray-900">- Sarah M., Miami Cleaning Co.</div>
-                </blockquote>
-                <blockquote className="bg-white p-6 rounded-xl shadow-sm">
-                  <p className="text-gray-700 mb-4 italic">
-                    "The hiring process used to take me weeks. Now my VA finds and vets candidates in days. 
-                    It's like having a full HR department for a fraction of the cost."
-                  </p>
-                  <div className="font-semibold text-gray-900">- Mike R., Spotless Solutions</div>
-                </blockquote>
+              </div>
+              <div className="bg-gradient-to-r from-amber-500 to-red-500 rounded-lg p-6 text-white">
+                <h3 className="text-2xl font-bold mb-2">After Virtual Assistant</h3>
+                <div className="space-y-2 text-amber-100">
+                  <div className="flex items-center gap-2">
+                    <div className="w-2 h-2 bg-amber-300 rounded-full"></div>
+                    <span>Focus on core business</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <div className="w-2 h-2 bg-amber-300 rounded-full"></div>
+                    <span>Never miss opportunities</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <div className="w-2 h-2 bg-amber-300 rounded-full"></div>
+                    <span>Smooth operations</span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
