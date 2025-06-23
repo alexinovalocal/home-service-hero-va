@@ -77,9 +77,9 @@ const ProblemSection = () => {
                     </p>
                   </div>
                 </div>
-                <div className="bg-green-50 p-6 rounded-xl border-l-4 border-green-500">
-                  <h4 className="text-lg font-semibold text-green-800 mb-3">How Our VAs Help:</h4>
-                  <p className="text-green-700 leading-relaxed">
+                <div className="bg-yellow-50 p-6 rounded-xl border-l-4 border-yellow-500">
+                  <h4 className="text-lg font-semibold text-yellow-800 mb-3">How Our VAs Help:</h4>
+                  <p className="text-yellow-700 leading-relaxed">
                     {problem.solution}
                   </p>
                 </div>
