@@ -51,7 +51,7 @@ const SolutionOverview = () => {
                 <div className="space-y-2 text-red-100">
                   <div className="flex items-center gap-2">
                     <div className="w-2 h-2 bg-red-400 rounded-full"></div>
-                    <span>60+ hours/week on admin tasks</span>
+                    <span>Overwhelmed with admin tasks</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <div className="w-2 h-2 bg-red-400 rounded-full"></div>
@@ -68,7 +68,7 @@ const SolutionOverview = () => {
                 <div className="space-y-2 text-amber-100">
                   <div className="flex items-center gap-2">
                     <div className="w-2 h-2 bg-amber-300 rounded-full"></div>
-                    <span>Focus on core business</span>
+                    <span>Focus on core business growth</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <div className="w-2 h-2 bg-amber-300 rounded-full"></div>
@@ -76,7 +76,7 @@ const SolutionOverview = () => {
                   </div>
                   <div className="flex items-center gap-2">
                     <div className="w-2 h-2 bg-amber-300 rounded-full"></div>
-                    <span>Smooth operations</span>
+                    <span>Build passive income streams</span>
                   </div>
                 </div>
               </div>
