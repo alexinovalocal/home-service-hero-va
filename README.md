@@ -1,78 +1,73 @@
+# Welcome to your Lovable project
 
-# Inova Local Landing Page - Static HTML/CSS/JS Version
+## Project info
 
-This is a static HTML/CSS/JavaScript version of the Inova Local landing page, designed for easy integration into WordPress or other CMS platforms.
+**URL**: https://lovable.dev/projects/6365a0da-16a9-46f2-91f7-7db1eb5d7a08
 
-## Files Included
+## How can I edit this code?
 
-- `index.html` - Main HTML structure with all content
-- `styles.css` - Complete CSS styling with responsive design
-- `script.js` - JavaScript for animations and interactions
-- `README.md` - This documentation file
+There are several ways of editing your application.
 
-## Features
+**Use Lovable**
 
-- **Fully Responsive Design** - Works on all devices and screen sizes
-- **Smooth Animations** - Fade-in and scale animations triggered by scroll
-- **Modern Styling** - Clean, professional design matching the original
-- **Interactive Elements** - Hover effects and button animations
-- **Optimized Performance** - Lightweight and fast-loading
-- **Cross-browser Compatible** - Works in all modern browsers
+Simply visit the [Lovable Project](https://lovable.dev/projects/6365a0da-16a9-46f2-91f7-7db1eb5d7a08) and start prompting.
 
-## WordPress Integration
+Changes made via Lovable will be committed automatically to this repo.
 
-To integrate this into WordPress:
+**Use your preferred IDE**
 
-1. **Upload files to your theme directory** or create a custom page template
-2. **Copy HTML content** into your WordPress page editor (HTML mode)
-3. **Add CSS** to your theme's `style.css` or use the Customizer
-4. **Add JavaScript** to your theme's `functions.php` or footer
-5. **Update contact links** to point to your WordPress contact forms
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-## Customization
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-### Colors
-The main brand colors used are:
-- Primary Red: `#dc2626`
-- Secondary Amber: `#d97706`
-- Text Gray: `#374151`
+Follow these steps:
 
-### Fonts
-The page uses Inter font from Google Fonts. You can change this in the HTML head section.
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-### Contact Information
-Update the email address in the footer and JavaScript alert messages:
-- Current: `info@inovalocal.com`
-- Replace with your actual contact information
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-### Call-to-Action Buttons
-The buttons currently show alert messages. Replace these with:
-- Links to your contact form
-- Integration with your booking system
-- Your preferred conversion tracking
+# Step 3: Install the necessary dependencies.
+npm i
 
-## Technical Details
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
 
-- **No dependencies** - Pure HTML/CSS/JS
-- **Modern CSS** - Uses Flexbox and Grid for layouts
-- **Vanilla JavaScript** - No jQuery or other libraries required
-- **SEO Friendly** - Semantic HTML structure
-- **Accessibility** - Proper heading hierarchy and alt text ready
+**Edit a file directly in GitHub**
 
-## Browser Support
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-- Chrome (all versions)
-- Firefox (all versions)
-- Safari (all versions)
-- Edge (all versions)
-- Internet Explorer 11+
+**Use GitHub Codespaces**
 
-## Performance
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-- **Lightweight** - Under 50KB total
-- **Fast Loading** - Optimized CSS and minimal JavaScript
-- **Mobile Optimized** - Responsive images and touch-friendly buttons
+## What technologies are used for this project?
 
-## Support
+This project is built with:
 
-For questions about this static version, please refer to the original React codebase or contact your development team.
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
+## How can I deploy this project?
+
+Simply open [Lovable](https://lovable.dev/projects/6365a0da-16a9-46f2-91f7-7db1eb5d7a08) and click on Share -> Publish.
+
+## Can I connect a custom domain to my Lovable project?
+
+Yes, you can!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
